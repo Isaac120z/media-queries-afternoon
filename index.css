@@ -1,0 +1,127 @@
+body{
+    background-image: url(background.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+button {
+    background-color: transparent; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+button:hover{
+    color: yellow;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    
+}
+
+
+
+.logo{
+    font-family: Helvetica, Arial;
+    color: #fed136;
+    font-size: 30px;
+    margin-left: 5%;
+    font-style: italic;
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+
+}
+
+.yellowbutton{
+    background-color: rgb(226, 212, 17); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+    margin-top: 5vh; 
+
+}
+
+.welcome{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 20vh;
+}
+
+.nice{
+    color: white;
+    font-style: bold;
+    font-size: 10vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex wrap;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center
+}
+
+@media screen and (max-width: 800px) {
+    .navbutton {   
+        visibility: hidden;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    
+}
+    .menu{
+    background-color: rgb(226, 212, 17); 
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    padding: 20px 40px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+    margin-top: 5vh;
+  
+    }
+    .logo{
+        font-family: Helvetica, Arial;
+        color: #fed136;
+        font-size: 30px;
+        font-style: italic;
+        display: inline-block;
+    
+    }
+}
